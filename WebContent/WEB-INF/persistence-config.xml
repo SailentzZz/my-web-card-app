@@ -14,10 +14,6 @@
 	<context:component-scan base-package="DAO"/>
 	<context:component-scan base-package="Service"/>
 
-    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:persistence.properties"/>
-    </bean>
-
     <bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="${driver}"/>
         <property name="url" value="${url}"/>
