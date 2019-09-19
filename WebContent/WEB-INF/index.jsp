@@ -125,11 +125,11 @@
                   <div class="wrap-about">
                     <div class="w-content">
                       <p class="head-about">
-                        Design is the method of putting form and content together. Design, just as art, has multiple definitions there is no single definition. Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
+                        Simplicity is the soul of efficiency.
                       </p>
                       
                       <h5 class="name">
-                        M. Reza
+                        Austin Freeman
                       </h5>
                       <img alt="signature" src="images/signature.png">
                     </div>
@@ -187,7 +187,8 @@
                   <span>Work</span>
                 </h3>
                 <p class="content-detail">
-                  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. <br><br>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.
+                  
+					I am just a beginner developer. Something else will be, lmao :)
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -232,9 +233,6 @@
                 <h3 class="title-small">
                   <span>Services</span>
                 </h3>
-                <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-                </p>
               </div>
               <div class="col-md-9 content-right">
                 <div class="row">
@@ -248,35 +246,7 @@
                           MODELING
                         </p>
                         <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          b
-                        </h3>
-                        <p class="head-sm">
-                          DATABASE
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
-                        </p>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="col-md-4 col-sm-4">
-                        <h3 class="icon-use">
-                          d
-                        </h3>
-                        <p class="head-sm">
-                          UI
-                        </p>
-                        <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                          ER modeling, IDEF0 modeling, UML diagrams 
                         </p>
                       </div>
                     </li>
@@ -293,7 +263,7 @@
                           DESIGN PATTERNS
                         </p>
                         <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                          Most popular patterns: Factory Method Pattern, Abstract Factory Pattern, Singleton Pattern, Prototype Pattern, etc. 
                         </p>
                       </div>
                     </li>
@@ -307,7 +277,7 @@
                           BACK END
                         </p>
                         <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                          Only Java...
                         </p>
                       </div>
                     </li>
@@ -329,7 +299,7 @@
                   <span>Employement</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                 	Unfortunately, I haven’t worked anywhere, but I want to work on a real task.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -350,8 +320,8 @@
                             </p>
                             <hr>
                             <div class="text-detail">
-                              <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              <p>                             
+								I hope that I will have only positive experience in your company.
                               </p>
                             </div>
                           </div>
@@ -396,6 +366,24 @@
                   <div class="skillbar" data-percent="96%">
                     <div class="title head-sm">
                       Java Core
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillst">
+                  <div class="skillbar" data-percent="87%">
+                    <div class="title head-sm">
+                      SQL
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillst">
+                  <div class="skillbar" data-percent="74%">
+                    <div class="title head-sm">
+                      PostgreSQL
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -506,7 +494,7 @@
                   <span>Education</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  I am a beginner, so for now only a bachelor.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -528,7 +516,8 @@
                             <hr>
                             <div class="text-detail">
                               <p>
-                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                                
+								I like my specialty. My average score is from 4.5 to 5. Only the first semester is not excellent, the next is excellent. I participate in all university conferences related to Java.
                               </p>
                             </div>
                           </div>
@@ -555,7 +544,7 @@
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! ”
+                        â Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! â
                       </h3>
                       <p class="people">
                         Darin Cohen - Active10
@@ -565,7 +554,7 @@
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. ”
+                        â Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. â
                       </h3>
                       <p class="people">
                         Marko Milicevic
@@ -575,7 +564,7 @@
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        “ Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! ”
+                        â Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! â
                       </h3>
                       <p class="people">
                         JK Thang
@@ -600,8 +589,8 @@
                 </h3>
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3">
-                    <p class="content-details text-center">
-                      Lorem ipsum dolor sit amet consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. 
+                    <p class="content-details text-center">                   
+						A bit of history 
                     </p>
                   </div>
                 </div>
@@ -620,7 +609,7 @@
                         </h3>
                       </a>
                       <p class="content-blog">
-                        Start Java education! 
+                        Start learning Java! 
                       </p>
                     </div>
                   </div>               
@@ -629,7 +618,7 @@
                     <div class="wrap-article">
                       <img alt="blog5" class="img-circle text-center" src="images/blog-5.jpg">
                       <p class="subtitle fancy">
-                        <span>07/26/2015</span>
+                        <span>09/05/2019</span>
                       </p>
                       <a href="#">
                         <h3 class="title">
@@ -659,7 +648,8 @@
                   <span>Contact</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  
+				You can contact me, and I will answer you. After sending the message - check your mail, the letter will be my current email.
                 </p>
 
               </div>
