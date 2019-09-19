@@ -1,9 +1,9 @@
 package conrollers;
  
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -24,6 +24,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import DAO.DAO;
 import Models.MessageBody;
@@ -99,13 +100,23 @@ public class DispatcherHelloController2 {
 	}
 	
     @RequestMapping(value = "/resume", method = RequestMethod.GET)
-    public void generateReport(HttpServletResponse response) throws Exception {
+    public RedirectView generateReport(HttpServletResponse response) throws Exception {
     	
-    	Path path = Paths.get(getClass().getClassLoader()
-    		      .getResource("blank.pdf").toURI());
-        byte[] data =  Files.readAllBytes(path);
+    	URL url = new URL("https://github.com/SailentzZz/test-app/blob/master/resources/blank.pdf");
+    	ByteArrayOutputStream output = new ByteArrayOutputStream();
+        
+        try (InputStream inputStream = url.openStream()) {
+            int n = 0;
+            byte [] buffer = new byte[ 1024 ];
+            while (-1 != (n = inputStream.read(buffer))) {
+                output.write(buffer, 0, n);
+            }
+        }
+    	
+        byte[] data = output.toByteArray();
+        
 
-        streamReport(response, data, "my_resume.pdf");
+        return new RedirectView("https://drive.google.com/open?id=1t_mCup6qYHyCqujRXjwt07OgwBywUK4k");
     }
 
     protected void streamReport(HttpServletResponse response, byte[] data, String name)
