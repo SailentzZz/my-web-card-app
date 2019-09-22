@@ -5,8 +5,6 @@
     <title>My card page</title>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <meta content="Bodo - Simple One Page Personal" name="description">
-    <meta content="BdgPixel" name="author">
     <!--Fav-->
     <link href="images/favicon.ico" rel="shortcut icon">
     
@@ -30,7 +28,7 @@
     <!--PRELOADER-->
     <div id="preloader">
       <div id="status">
-        <img alt="logo" src="images/logo-big.png">
+        <img alt="logo" src="images/images.png">
       </div>
     </div>
     <!--/.PRELOADER END-->
@@ -40,7 +38,7 @@
       <div class="for-sticky">
         <!--LOGO-->
         <div class="col-md-2 col-xs-6 logo">
-          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+          <a><img alt="logo" class="logo-nav" src="images/head-logo.png"></a>
         </div>
         <!--/.LOGO END-->
       </div>
@@ -147,6 +145,11 @@
                             <td> Misha Travin</td>
                           </tr>
                           <tr>
+                            <td class="title">Age </td>
+                            <td class="break">:</td>
+                            <td> 20</td>
+                          </tr>
+                          <tr>
                             <td class="title">Phone </td>
                             <td class="break">:</td>
                             <td> +7-920-518-89-34</td>
@@ -186,8 +189,7 @@
                 <h3 class="title-small">
                   <span>Work</span>
                 </h3>
-                <p class="content-detail">
-                  
+                <p class="content-detail">              
 					I am just a beginner developer. Something else will be, lmao :)
                 </p>
               </div>
@@ -207,7 +209,8 @@
                     </form>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+                  <form id="form2" action="participation" method="get">
+                    <a href="images/bw-5.png" onclick="document.getElementById('form2').submit();"><img alt="image" src="images/bw-5.png">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -216,6 +219,7 @@
                         </div>
                       </div>
                     </a>
+                    </form>
                   </li>
                 </ul>
                 <!--/.PORTFOLIO IMAGE END-->
@@ -299,7 +303,7 @@
                   <span>Employement</span>
                 </h3>
                 <p class="content-detail">
-                 	Unfortunately, I haven’t worked anywhere, but I want to work on a real task.
+                 	Unfortunately, I havent worked anywhere, but I want to work on a real task.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -313,7 +317,7 @@
                               2019 - NOW
                             </h2>
                             <p class="job">
-                              Beginner Back End Java Developer
+                              Beginner Backend Java Developer
                             </p>
                             <p class="company">
                               Your company, etc.
@@ -322,6 +326,54 @@
                             <div class="text-detail">
                               <p>                             
 								I hope that I will have only positive experience in your company.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2019
+                            </h2>
+                            <p class="job">
+                              Beginner Java Developer
+                            </p>
+                            <p class="company">
+                              SaPE project "pITzza"
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>                             
+								Project in Scrum Team. Served as the Backend Java developer. He was engaged in database design and ER-model development.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2019
+                            </h2>
+                            <p class="job">
+                              Beginner Java Developer
+                            </p>
+                            <p class="company">
+                              Sentient-Eye.CPFC
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>                             
+								He was engaged in the design and development of the Android interface. SQLite client database development.
                               </p>
                             </div>
                           </div>
@@ -348,7 +400,8 @@
                   <span>Skills</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  
+					My skills. Subjectively.
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -381,7 +434,7 @@
                     </div>
                   </div>
                   <div class="skillst">
-                  <div class="skillbar" data-percent="74%">
+                  <div class="skillbar" data-percent="26%">
                     <div class="title head-sm">
                       PostgreSQL
                     </div>
@@ -447,7 +500,7 @@
                   </div>
                   <div class="skillbar" data-percent="30%">
                     <div class="title head-sm">
-                      Hibernate
+                      Hibernate ORM, Validator
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -455,7 +508,7 @@
                   </div>
                   <div class="skillbar" data-percent="37%">
                     <div class="title head-sm">
-                      Spring(Core, MVC)
+                      Spring Framework(Core, MVC)
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -463,7 +516,7 @@
                   </div>
                  <div class="skillbar" data-percent="68%">
                     <div class="title head-sm">
-                      Junit, Mockito
+                      JUnit, Mockito
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -472,6 +525,14 @@
                  <div class="skillbar" data-percent="44%">
                     <div class="title head-sm">
                       XML
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="24%">
+                    <div class="title head-sm">
+                      Ubuntu(Linux)
                     </div>
                     <div class="count-bar">
                       <div class="count"></div>
@@ -515,8 +576,7 @@
                             </p>
                             <hr>
                             <div class="text-detail">
-                              <p>
-                                
+                              <p>                              
 								I like my specialty. My average score is from 4.5 to 5. Only the first semester is not excellent, the next is excellent. I participate in all university conferences related to Java.
                               </p>
                             </div>
@@ -544,30 +604,21 @@
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        â Reza did a phenominal job setting up my a website for my product He performed the task very quickly and efficiently. We know we have the superior topical pain relief cream on the market and he has helped us communicate that message via the website he built from scratch. Thanks! â
+                        He perfectly did the job he had to. Just got the case and implented it in the fastest but reliable way. Never lost his ability of creating unordinary solutions to any kind of problems.
                       </h3>
                       <p class="people">
-                        Darin Cohen - Active10
+                        Andrey Arakelyan -
+                        <a href="https://github.com/Kelayn/Sentient-Eye.CPFC" target="Sentient-Eye.CPFC">Sentient-Eye.CPFC</a>
                       </p>
                     </div>
                   </div>
                   <div class="list-testimonial">
                     <div class="content-testimonial">
                       <h3 class="testi">
-                        â Another successful project working with Reza. He has great design skills, is very responsive and professional. Looking forward to the next opportunity to work together. â
-                      </h3>
+                        During the work he made many crucial features for our project. He is reliable person who can perform quite a difficult work. He is constantly involved in development process.</h3>
                       <p class="people">
-                        Marko Milicevic
-                      </p>
-                    </div>
-                  </div>
-                  <div class="list-testimonial">
-                    <div class="content-testimonial">
-                      <h3 class="testi">
-                        â Great designer! I like his sense of design, especially the color scheme. Quick turnaround. Look forward to work with him again. Thanks!! â
-                      </h3>
-                      <p class="people">
-                        JK Thang
+                        Dmitry Verba(Scrum-master) - 
+                        <a href="https://drive.google.com/open?id=1q-dsJ6noCOqa46qifCoPMFYvX2JgpAxf" target="SaPE: project 'pITzza'">SaPE: project "pITzza"</a>
                       </p>
                     </div>
                   </div>
@@ -696,7 +747,7 @@
                 <a href="https://www.hackerrank.com/SailentzZz" data-hover="HackerRank">HackerRank</a>
               </li>
               <li class="gplus">
-                <a href="https://github.com/SailentzZz?tab=projects" data-hover="GitHub">GitHub</a>
+                <a href="https://github.com/SailentzZz?tab=repositories" data-hover="GitHub">GitHub</a>
               </li>
             </ul>
           </div>
@@ -704,7 +755,7 @@
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />
+                <img src="images/main-logo.png" alt="logo bottom" class="center-block" />
               </div>
             </div>
           </div>

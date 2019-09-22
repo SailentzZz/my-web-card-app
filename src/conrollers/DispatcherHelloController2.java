@@ -1,9 +1,6 @@
 package conrollers;
  
-import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.URL;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -102,32 +99,13 @@ public class DispatcherHelloController2 {
     @RequestMapping(value = "/resume", method = RequestMethod.GET)
     public RedirectView generateReport(HttpServletResponse response) throws Exception {
     	
-    	URL url = new URL("https://github.com/SailentzZz/test-app/blob/master/resources/blank.pdf");
-    	ByteArrayOutputStream output = new ByteArrayOutputStream();
-        
-        try (InputStream inputStream = url.openStream()) {
-            int n = 0;
-            byte [] buffer = new byte[ 1024 ];
-            while (-1 != (n = inputStream.read(buffer))) {
-                output.write(buffer, 0, n);
-            }
-        }
-    	
-        byte[] data = output.toByteArray();
-        
-
-        return new RedirectView("https://drive.google.com/open?id=1t_mCup6qYHyCqujRXjwt07OgwBywUK4k");
+        return new RedirectView("https://drive.google.com/open?id=1wRTQs1OVPv16q3vMaWRAXGetbGDEV_uS");
     }
-
-    protected void streamReport(HttpServletResponse response, byte[] data, String name)
-            throws IOException {
-
-        response.setContentType("application/pdf");
-        response.setHeader("Content-disposition", "attachment; filename=" + name);
-        response.setContentLength(data.length);
-
-        response.getOutputStream().write(data);
-        response.getOutputStream().flush();
+    
+    @RequestMapping(value = "/participation", method = RequestMethod.GET)
+    public RedirectView generatePart(HttpServletResponse response) throws Exception {
+    	
+        return new RedirectView("https://drive.google.com/open?id=1q-dsJ6noCOqa46qifCoPMFYvX2JgpAxf");
     }
 	
 	public Map<String, String> validate(Object object, Validator validator) throws IOException, ServletException {
