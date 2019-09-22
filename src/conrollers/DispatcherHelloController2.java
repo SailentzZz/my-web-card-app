@@ -129,7 +129,7 @@ public class DispatcherHelloController2 {
 		    	}
 		    	if (cv.getPropertyPath().toString().equals("Message")) {
 		    		msgMessage += cv.getMessage() + "<br>";
-		    		err.put("messageinErr", msgMessage);		    		
+		    		err.put("messageErr", msgMessage);		    		
 		    		logger.info(err.get("messageErr"));
 		    	}
 		    	if (cv.getPropertyPath().toString().equals("Email")) {

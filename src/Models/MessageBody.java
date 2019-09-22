@@ -38,7 +38,7 @@ public class MessageBody {
 	
 	@NotNull(message="Message has been input")
 	@Size(min = 3, max = 10000, message="Length name - max=10000/min=3")
-	@Pattern(regexp = "^[a-zA-Zа-яА-Я0-9$@$!%*?&#^-_.,+]+$", message = "Acessible character a-zA-Zа-яА-Я0-9$@$!%*?&#^-_.,+")
+	@Pattern(regexp = "^[a-zA-Zа-яА-Я0-9$@$!%*?&#^-_.,+ ]+$", message = "Acessible character a-zA-Zа-яА-Я0-9$@$!%*?&#^-_.,+ ")
 	@Column(name = "\"Message\"")
 	private String Message;
 	
